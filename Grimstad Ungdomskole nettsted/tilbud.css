@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Century Gothic", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navlist {
+    width: 100%;
+    padding: 10px 10vw;
+    background-color: white;
+    color: black;
+}
+
+.navlist ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navlist ul li:first-child {
+    flex: 1;
+}
+
+.navlist ul .nav-right {
+    margin-left: auto;
+}
+
+.navlist ul h4 {
+    font-family: serif;
+    margin: 0;
+}
+
+.navlist ul a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navlist ul a:hover {
+    color: #002855;
+}
+.secondary-header {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.secondary-header h1 {
+    font-size: 2.5em;
+    color: #002855;
+}
+.navlist .logo {
+    max-height: 50px;
+}
+
+.top-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.top-image img {
+    width: 100%;
+    height: auto;
+}
+
+.top-image h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info-block {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.info-block h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.info-block p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.info-block ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.info-block li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #002855;
+    color: white;
+    padding: 20px 10vw;
+    font-family: "Helvetica Neue", sans-serif;
+    flex-shrink: 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
